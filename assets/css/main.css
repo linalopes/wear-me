@@ -944,10 +944,14 @@
 			.columns .imgWrap {
   				position: relative;
   				height: 200px;
-  				width: 257px;
+  				width: 100%;
 			}
 			.columns .imgDescription {
   				position: relative;
+				top: 0;
+  				bottom: 0;
+  				left: 0;
+  				right: 0;
   				background: rgba(231, 76, 60, 0.72);
   				color: #fff;
 
