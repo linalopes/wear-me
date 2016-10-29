@@ -934,7 +934,7 @@
 				-webkit-backface-visibility: hidden;
 				-webkit-transform: translate3D(0, 0, 0);
 				
-				opacity: 0;
+				-webkit-transition: visibility opacity 0.2s;
 			}
 
 			.columns .image:hover img {
