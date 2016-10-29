@@ -943,7 +943,7 @@
 			}
 			.columns .imgWrap {
   				position: relative;
-  				height: 200px;
+  				height: 100%;
   				width: 100%;
 			}
 			.columns .imgDescription {
