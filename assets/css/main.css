@@ -940,10 +940,12 @@
 				-webkit-transform: scale(1.1);
 				-ms-transform: scale(1.1);
 				transform: scale(1.1);
-				visibility: visible;
-	 	 		opacity: 1;
 			}
-			
+			.columns .imgWrap {
+  				position: relative;
+  				height: 200px;
+  				width: 257px;
+			}
 			.columns .imgDescription {
   				position: absolute;
   				top: 0;
@@ -959,7 +961,11 @@
   				/*remove comment if you want a gradual transition between states
   				-webkit-transition: visibility opacity 0.2s;
  				*/
-		}
+			}
+			.columns .imgWrap:hover .imgDescription {
+  				visibility: visible;
+  				opacity: 1;
+			}
 			
 		@media screen and (max-width: 736px) {
 
