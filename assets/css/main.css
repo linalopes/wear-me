@@ -940,6 +940,7 @@
 				-webkit-transform: scale(1.1);
 				-ms-transform: scale(1.1);
 				transform: scale(1.1);
+				text-decoration:none;
 			}
 
 		@media screen and (max-width: 736px) {
