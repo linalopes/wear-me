@@ -933,6 +933,8 @@
 				transition: transform 0.2s ease-in-out;
 				-webkit-backface-visibility: hidden;
 				-webkit-transform: translate3D(0, 0, 0);
+				
+				opacity: 0;
 			}
 
 			.columns .image:hover img {
@@ -940,8 +942,11 @@
 				-webkit-transform: scale(1.1);
 				-ms-transform: scale(1.1);
 				transform: scale(1.1);
-				text-decoration:none;
+				
+				visibility: visible;
+				opacity: 1;
 			}
+
 
 		@media screen and (max-width: 736px) {
 
