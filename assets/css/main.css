@@ -955,7 +955,7 @@
   				background: rgba(29, 106, 154, 0.72);
   				color: #fff;
 
-  				visibility: hidden;
+  				visibility: none;
   				opacity: 0;
 
   				/*remove comment if you want a gradual transition between states
