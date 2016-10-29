@@ -944,7 +944,7 @@
 	 	 		opacity: 1;
 			}
 			
-			.imgDescription {
+			.columns .imgDescription {
   				position: absolute;
   				top: 0;
   				bottom: 0;
